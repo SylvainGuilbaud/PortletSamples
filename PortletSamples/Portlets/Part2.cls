@@ -3,7 +3,7 @@ Class PortletSamples.Portlets.Part2 Extends %DeepSee.Component.Portlet.abstractP
 
 Method %DrawHTML()
 {
-    Set ..renderFlag = ..renderFlag + 1
+	Set ..renderFlag = ..renderFlag + 1
 }
 
 ClientMethod renderContents() [ Language = javascript ]
